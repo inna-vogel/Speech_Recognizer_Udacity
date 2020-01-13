@@ -11,3 +11,4 @@ After learning about the basic types of layers that are often used for deep lear
 Throughout the notebook, we provide recommended research papers for additional reading and links to GitHub repositories with interesting implementations.
 
 Step 1: Raw data is preprocessed to a feature representation which is a spectrogram (https://www.youtube.com/watch?v=_FatxGN3vAM)
+Spectrogram = 2D tensor (vertical dimension = time, horizontal dimension = frequency) (normalization [-3;3]).
