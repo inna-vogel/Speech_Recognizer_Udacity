@@ -23,3 +23,8 @@ The output of the RNN at each time step is a vector of 29 probabilities with the
 
 Model 1: RNN + TimeDistributed Dense
 The TimeDistributed layer is used to find more complex patterns in the dataset. 
+
+Model 2: CNN + RNN + TimeDistributed Dense
+This architecture adds an additional level of complexity, by introducing a 1D convolution layer.
+
+
