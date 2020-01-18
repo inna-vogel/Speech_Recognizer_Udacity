@@ -27,4 +27,6 @@ The TimeDistributed layer is used to find more complex patterns in the dataset.
 Model 2: CNN + RNN + TimeDistributed Dense
 This architecture adds an additional level of complexity, by introducing a 1D convolution layer.
 
+Model 3: Deeper RNN + TimeDistributed Dense
+The model utilizes a variable number recur_layers of recurrent layers. 
 
