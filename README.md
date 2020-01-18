@@ -35,3 +35,5 @@ Model uses a single bidirectional RNN layer
 
 One shortcoming of conventional RNNs is that they are only able to make use of previous context. In speech recognition, where whole utterances are transcribed at once, there is no reason not to exploit future context as well. Bidirectional RNNs (BRNNs) do this by processing the data in both directions with two separate hidden layers which are then fed forwards to the same output layer.
 
+Afterwards all models are compared in: final_model
+The training and validation loss are plotted for each model.
