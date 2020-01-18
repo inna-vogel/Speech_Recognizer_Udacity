@@ -15,3 +15,4 @@ Step 1: Raw data is preprocessed to a feature representation which is a spectrog
 Spectrogram and MFCC = 2D tensor (vertical dimension = time, horizontal dimension = frequency) (normalization [-3;3]).
 
 Step 2: Train different neural network architectures for acoustic modeling. Models are specified in simple_models.py
+ Model 0: RNN
