@@ -28,11 +28,9 @@ Model 2: CNN + RNN + TimeDistributed Dense
 This architecture adds an additional level of complexity, by introducing a 1D convolution layer.
 
 Model 3: Deeper RNN + TimeDistributed Dense
-
 The model utilizes a variable number recur_layers of recurrent layers. 
 
 Model 4: Bidirectional RNN + TimeDistributed Dense
-
 Model uses a single bidirectional RNN layer
 
 One shortcoming of conventional RNNs is that they are only able to make use of previous context. In speech recognition, where whole utterances are transcribed at once, there is no reason not to exploit future context as well. Bidirectional RNNs (BRNNs) do this by processing the data in both directions with two separate hidden layers which are then fed forwards to the same output layer.
