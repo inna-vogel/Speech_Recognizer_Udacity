@@ -15,7 +15,11 @@ Step 1: Raw data is preprocessed to a feature representation which is a spectrog
 Spectrogram and MFCC = 2D tensor (vertical dimension = time, horizontal dimension = frequency) (normalization [-3;3]).
 
 Step 2: Train different neural network architectures for acoustic modeling. Models are specified in simple_models.py
+
 Model 0: RNN
 Each time step is one of 28 possible characters a speaker pronounces --> 26 letters in the English alphabet, space character (" "), and an apostrophe (').
 
 The output of the RNN at each time step is a vector of 29 probabilities with the probability that a character is spoken (The extra 29th character is an empty "character" used to pad training examples within batches containing uneven lengths.) 
+
+Model 1: RNN + TimeDistributed Dense
+The TimeDistributed layer is used to find more complex patterns in the dataset. 
