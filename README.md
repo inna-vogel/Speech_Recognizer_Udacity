@@ -28,7 +28,7 @@ Model 2: CNN + RNN + TimeDistributed Dense
 This architecture adds an additional level of complexity, by introducing a 1D convolution layer.
 
 Model 3: Deeper RNN + TimeDistributed Dense
-The model utilizes a variable number recur_layers of recurrent layers. 
+The model utilizes a variable number of recurrent layers (recur_layers). 
 
 Model 4: Bidirectional RNN + TimeDistributed Dense
 Model uses a single bidirectional RNN layer
