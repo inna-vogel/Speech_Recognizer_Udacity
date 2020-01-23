@@ -166,7 +166,7 @@ def final_model(input_dim, filters, kernel_size, conv_stride, conv_border_mode, 
     
     # Bidirectional RNN 1    
     bidirectional_rnn_1 = Bidirectional(GRU(units, activation="relu", return_sequences=True, 
-                 implementation=2, name="bidirectional_rnn_1", dropout=0.3))(bn_cnn)
+                 implementation=2, name="bidirectional_rnn_1", dropout=0.4))(bn_cnn)
     
     bn_rnn_1 =  BatchNormalization(name='bn_rnn')(bidirectional_rnn_1)
     
