@@ -37,4 +37,4 @@ One shortcoming of conventional RNNs is that they are only able to make use of p
 
 Final Model: CNN + 2x Bidirectional ENN + TimeDistributed Dense
 
-The training and validation loss are plotted for each model.
+The training and validation loss are plotted for each model. 
